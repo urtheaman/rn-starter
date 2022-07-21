@@ -1,0 +1,19 @@
+an app which shows infos about the user's most recent locations.
+it should only actively detect changes while user is using the app.
+max amount of recent locations is 30.
+user should be able to clear recent locations.
+
+requirements:
+the app automatically adds a new location to the list of locations every 5 mins.
+each location should be sent via post to https://httpstat.us/200
+{location_name: data, time: time_data}
+user can see upto 30 locations.
+user can clear locations either one by one or all at once.
+second tab which shows the visited locations.
+
+tech:
+ts,
+redux,
+jest
+
+implement reverse geocoding (https://opencagedata.com/api)

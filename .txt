@@ -1,0 +1,17 @@
+Parking manager can create a lot.
+app will ask for the number of lots in the parking area.
+it'll then tell the user they're bookin n lots.
+each lot will be allotted a unique number.
+app will ask for car reg. no. and allot a random parkin lot
+
+if no lot is available, show a toast that parking is full.
+on exit, parking charges should be paid and parking lot should also be marked available.
+charges calculations:
+first 2hrs. 10$
+then 10$ an hour
+
+you can mock the payment with the payment button only.
+libs to be used:
+expo
+mui
+jest
